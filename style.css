@@ -1,0 +1,51 @@
+body{
+  margin-left: 0px;
+}
+
+h1{
+  color: white;
+  font-size: 50px;
+}
+
+.top-shoe-div{
+  background-color: #FF512F;
+}
+
+.filler-text-div1{
+  color: white;
+  font-size: 20px;
+}
+
+#money-div1{
+  margin-bottom: 0px;
+}
+
+.link-buynow{
+  font-size: 20px;
+}
+
+.header-text-center{
+  font-size: 30px;
+  color: #503226;
+}
+
+#bottom-middle{
+  margin-bottom: 0px;
+}
+
+.funny-sneakers{
+  color: white;
+  font-size: 30px;
+  text-decoration-line: underline;
+  text-decoration-color: #4E188F;
+}
+
+.link-price{
+  color: #4E188F;
+  font-size: 20px;
+}
+
+footer{
+  display: inline-block;
+  width: 1000px;
+}
