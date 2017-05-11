@@ -1,5 +1,41 @@
 body{
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+header{
+  margin-left: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 10px;
+}
+
+.header-icon{
+  display: block;
+  margin-bottom: 10px;
+  width: 50px;
+}
+
+.header-div-top{
+  display: block;
+  margin-bottom: 10px;
+}
+
+.header-span-top{
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #FF512F;
+  font-family: sans-serif;
+}
+
+.header-men{
   margin-left: 0px;
+}
+
+.header-span-bottom{
+  margin-right: 25px;
+  color: #FD512F;
+  font-family: sans-serif;
 }
 
 h1{
@@ -8,20 +44,68 @@ h1{
 }
 
 .top-shoe-div{
+  overflow: auto;
+  border-top: 10px solid #F34D2D;
+  padding-left: 325px;
+  padding-right: 325px;
   background-color: #FF512F;
 }
 
-.filler-text-div1{
+.back-to-shoes-link{
+  text-align: left;
+  display: block;
   color: white;
-  font-size: 20px;
+  text-decoration: none;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.shoe1{
+  width: 100%;
+}
+
+.quick-sneakers{
+  margin-bottom: 5px;
+}
+
+
+
+.filler-text-div1{
+  margin-top: 50px;
+  border-top: 2px dashed #B03921;
+  border-bottom: 2px dashed #B03921;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+  font-size: 13px;
 }
 
 #money-div1{
-  margin-bottom: 0px;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  margin-right: 25px;
+  display: inline-block;
+  color: white;
 }
 
 .link-buynow{
   font-size: 20px;
+  border: 1px solid white;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.center-section{
+  padding: 75px 325px 0px;
+}
+
+.center-header{
+  color: #FF5534;
+  border-bottom: 1px solid #FF5534;
+  font-weight: bold;
+  padding-right: 20px;
 }
 
 .header-text-center{
@@ -29,23 +113,41 @@ h1{
   color: #503226;
 }
 
-#bottom-middle{
-  margin-bottom: 0px;
+.shop-recommended-shoes{
+  text-align: center;
+  padding: 25px 25px;
+  background-color: #FFEEEB;
+  margin: 0px;
+}
+
+.bottom-shoe-img{
+  width: 100%
+}
+
+.spring-summer-span{
+  display: block;
+  margin-bottom: 20px;
 }
 
 .funny-sneakers{
   color: white;
   font-size: 30px;
-  text-decoration-line: underline;
-  text-decoration-color: #4E188F;
+  margin-bottom: 0px;
 }
 
 .link-price{
-  color: #4E188F;
+  color: white;
   font-size: 20px;
+  text-decoration: none;
 }
 
 footer{
   display: inline-block;
   width: 1000px;
+}
+
+.shoe-icon-footer{
+  display: block;
+  width: 50px;
+  margin  -bottom: 10px
 }
