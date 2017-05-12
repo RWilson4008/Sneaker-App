@@ -5,20 +5,22 @@ body{
 
 header{
   margin-left: 25px;
-  margin-top: 25px;
+  margin-top: 10px;
   margin-bottom: 25px;
   font-size: 10px;
 }
 
 .header-icon{
-  display: block;
+  display: inline-block;
   margin-bottom: 10px;
   width: 50px;
+  float: left;
 }
 
 .header-div-top{
   display: block;
-  margin-bottom: 10px;
+  margin: 10px;
+  float: left;
 }
 
 .header-span-top{
@@ -26,6 +28,7 @@ header{
   margin-left: 10px;
   color: #FF512F;
   font-family: sans-serif;
+  font-weight: 600;
 }
 
 .header-men{
@@ -33,9 +36,11 @@ header{
 }
 
 .header-span-bottom{
-  margin-right: 25px;
+  margin: 10px;
   color: #FD512F;
   font-family: sans-serif;
+  float: right;
+  font-weight: 600;
 }
 
 h1{
@@ -46,9 +51,8 @@ h1{
 .top-shoe-div{
   overflow: auto;
   border-top: 10px solid #F34D2D;
-  padding-left: 325px;
-  padding-right: 325px;
   background-color: #FF512F;
+  clear: both;
 }
 
 .back-to-shoes-link{
@@ -56,12 +60,24 @@ h1{
   display: block;
   color: white;
   text-decoration: none;
-  margin-top: 25px;
   margin-bottom: 25px;
 }
 
 .shoe1{
   width: 100%;
+}
+
+.shoe-and-link-top{
+  float: left;
+  width: 40%;
+  padding-left: 150px;
+  padding-top: 40px;
+}
+
+.quick-sneaker-text{
+  float: right;
+  width: 35%;
+  padding-right: 100px;
 }
 
 .quick-sneakers{
@@ -77,7 +93,13 @@ h1{
   padding-top: 30px;
   padding-bottom: 30px;
   color: white;
-  font-size: 13px;
+  font-size: 18px;
+  line-height: 1.7em;
+}
+
+.review-link{
+  float: right;
+  color: #9C2E36;
 }
 
 #money-div1{
@@ -86,15 +108,23 @@ h1{
   margin-right: 25px;
   display: inline-block;
   color: white;
+  font-size: 25px;
+}
+
+.dollar-sign{
+  font-size: .8em;
+  vertical-align: text-top;
 }
 
 .link-buynow{
   font-size: 20px;
   border: 1px solid white;
   background-color: white;
-  padding: 10px;
+  padding: 10px 20px;
   border-radius: 5px;
   margin-top: 10px;
+  text-decoration: none;
+  color: #FF512F;
 }
 
 .center-section{
@@ -113,6 +143,10 @@ h1{
   color: #503226;
 }
 
+.review-tab{
+  float: right;
+}
+
 .shop-recommended-shoes{
   text-align: center;
   padding: 25px 25px;
@@ -120,34 +154,86 @@ h1{
   margin: 0px;
 }
 
+.bottom-shoe-section{
+  overflow: auto;
+}
+
+.bottom-shoe-div{
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+.funny-sneaker-div{
+  box-sizing: border-box;
+  display: inline-block;
+  width: 20%;
+}
+
+.nimble-sneaker-div{
+  box-sizing: border-box;
+  display: inline-block;
+  width: 20%;
+  margin-left: 35px;
+}
+
+.cute-sneaker-div{
+  box-sizing: border-box;
+  display: inline-block;
+  width: 20%;
+  margin-left: 35px;
+}
+
 .bottom-shoe-img{
-  width: 100%
+  width: 100%;
 }
 
 .spring-summer-span{
-  display: block;
-  margin-bottom: 20px;
+  display: inline-block;
+  color: #9C2E36;
 }
 
 .funny-sneakers{
   color: white;
-  font-size: 30px;
-  margin-bottom: 0px;
+  font-size: 15px;
+  text-align: left;
+  display: inline-block;
+  width: 100%;
 }
 
 .link-price{
   color: white;
   font-size: 20px;
   text-decoration: none;
+  float: right;
 }
 
 footer{
+  overflow: auto;
   display: inline-block;
-  width: 1000px;
+  width: 100%;
 }
 
 .shoe-icon-footer{
   display: block;
   width: 50px;
-  margin  -bottom: 10px
+  margin: 15px 15px;
+  float: left;
+}
+
+.footer-div{
+  margin: 20px 10px;
+}
+
+.header-span-footer{
+  margin: 20px 10px;
+  color: #FF512F;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.footer-links{
+  float: right;
+  margin: 2px;
+  color: #9C2E36;
 }
